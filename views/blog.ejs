@@ -1,0 +1,27 @@
+<%- include('partials/header.ejs') %>
+
+<div class="container-fluid ">
+<div class="blogPost">
+    <h2>
+        <%= blog.heading %>
+    </h2>
+
+    <p>
+        <%= blog.dateAndTime %>
+    </p>
+
+    <p>
+        <%= blog.body %>
+    </p>
+
+    <p>
+        <%= blog.notes %>
+    </p>
+
+    <p>
+        <%= blog.thanks %>
+    </p>
+</div>
+</div>
+
+<%- include('partials/footer.ejs') %>

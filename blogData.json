@@ -1,0 +1,38 @@
+[
+  {
+    "heading": "First Blog Post",
+    "body": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed ut perspiciatis unde omnis iste natus error.",
+    "notes": "Note: This is a placeholder blog post.",
+    "thanks": "Thank you for reading the first post!"
+  },
+  {
+    "heading": "Second Blog Post",
+    "body": "Neque porro quisquam est qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit.",
+    "notes": "Note: Sample blog content.",
+    "thanks": "Thanks again for stopping by!"
+  },
+  {
+    "heading": "Second Blog Post",
+    "body": "Neque porro quisquam est qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit.",
+    "notes": "Note: Sample blog content.",
+    "thanks": "Thanks again for stopping by!"
+  },
+  {
+    "heading": "Second Blog Post",
+    "body": "Neque porro quisquam est qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit.",
+    "notes": "Note: Sample blog content.",
+    "thanks": "Thanks again for stopping by!"
+  },
+  {
+    "heading": "Second Blog Post",
+    "body": "Neque porro quisquam est qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit.",
+    "notes": "Note: Sample blog content.",
+    "thanks": "Thanks again for stopping by!"
+  },
+  {
+    "heading": "Second Blog Post",
+    "body": "Neque porro quisquam est qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit.",
+    "notes": "Note: Sample blog content.",
+    "thanks": "Thanks again for stopping by!"
+  }
+]

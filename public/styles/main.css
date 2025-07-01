@@ -1,0 +1,88 @@
+@import url('https://fonts.googleapis.com/css2?family=Alegreya:ital,wght@0,400..900;1,400..900&display=swap');
+
+* {
+    font-family: "Alegreya", serif;
+}
+
+:root {
+    --bs-body-font-family: "Alegreya", serif;
+}
+
+h1 {
+    color: #F4F8D3;
+    text-transform: capitalize;
+    margin: 0;
+}
+
+a {
+    text-decoration: none;
+}
+
+.header {
+    padding: 5% 5% 0%;
+    display: flex;
+    justify-content: space-between;
+    
+}
+
+.new {
+    background-color: #F4F8D3;
+}
+
+.container-fluid {
+    padding: 2% 5%;
+}
+
+.form {
+    padding-top: 5%;
+    padding-left: 20%;
+    padding-right: 20%;
+}
+
+.blog {
+    padding-bottom: 12px;
+}
+
+.blogPost {
+    background-color: #F4F8D3;
+    border-radius: 5px;
+    padding: 5%;
+}
+
+.hover {
+    background-color: #F4F8D3;
+}
+
+.btn-primary {
+    background-image: radial-gradient(circle,rgba(238, 174, 202, 1) 0%, rgba(148, 187, 233, 1) 100%);
+    border: 0;
+    color: #F4F8D3;
+}
+
+.submit {
+    margin-top: 16px;
+}
+
+#page-container {
+  position: relative;
+  min-height: 100vh;
+}
+
+#content-wrap {
+    padding-bottom: 2.5rem;
+}
+
+#footer {
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  height: 2.5rem;            /* Footer height */
+  
+  margin: 0;
+  color: #F4F8D3;
+      padding: 2%;
+}
+
+body {
+    background-image: radial-gradient(circle,rgba(238, 174, 202, 1) 0%, rgba(148, 187, 233, 1) 100%);
+}
