@@ -1,5 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Alegreya:ital,wght@0,400..900;1,400..900&display=swap');
 
+/* Common */
 * {
     font-family: "Alegreya", serif;
 }
@@ -8,60 +9,28 @@
     --bs-body-font-family: "Alegreya", serif;
 }
 
-h1 {
-    color: #F4F8D3;
-    text-transform: capitalize;
-    margin: 0;
+body {
+    background-image: radial-gradient(circle,rgba(238, 174, 202, 1) 0%, rgba(148, 187, 233, 1) 100%);
 }
 
 a {
     text-decoration: none;
 }
 
-.header {
-    padding: 5% 5% 0%;
-    display: flex;
-    justify-content: space-between;
-    
+.container-fluid {
+    padding: 2% 5%;
+
 }
 
 .new {
+    background-color: #F4F8D3;    
+}
+
+.new:hover {
     background-color: #F4F8D3;
 }
 
-.container-fluid {
-    padding: 2% 5%;
-}
-
-.form {
-    padding-top: 5%;
-    padding-left: 20%;
-    padding-right: 20%;
-}
-
-.blog {
-    padding-bottom: 12px;
-}
-
-.blogPost {
-    background-color: #F4F8D3;
-    border-radius: 5px;
-    padding: 5%;
-}
-
-.hover {
-    background-color: #F4F8D3;
-}
-
-.btn-primary {
-    background-image: radial-gradient(circle,rgba(238, 174, 202, 1) 0%, rgba(148, 187, 233, 1) 100%);
-    border: 0;
-    color: #F4F8D3;
-}
-
-.submit {
-    margin-top: 16px;
-}
+/* header */
 
 #page-container {
   position: relative;
@@ -72,17 +41,92 @@ a {
     padding-bottom: 2.5rem;
 }
 
+.header {
+    padding: 5% 5% 0%;
+    display: flex;
+    justify-content: space-between;
+    
+}
+
+h1 {
+    color: #F4F8D3;
+    text-transform: capitalize;
+    margin: 0;
+}
+
+/* footer */
+
 #footer {
   position: absolute;
   bottom: 0;
   width: 100%;
-  height: 2.5rem;            /* Footer height */
-  
+  height: 2.5rem;  
   margin: 0;
   color: #F4F8D3;
       padding: 2%;
 }
 
-body {
+/* home */
+
+.blog {
+    padding-bottom: 12px;
+    
+}
+
+.cardButton {
     background-image: radial-gradient(circle,rgba(238, 174, 202, 1) 0%, rgba(148, 187, 233, 1) 100%);
+    border: 0;
+    color: #F4F8D3;
+}
+
+.hover {
+    background-color: #F4F8D3;
+}
+
+/* blog */
+
+.outerBlog {
+    padding: 5% 5%;
+    display: flex;
+    justify-content: center;
+}
+
+.blogPost {
+    background-color: #F4F8D3;
+    border-radius: 5px;
+    padding: 5%;
+    width: 75%;
+}
+
+.blogDate {
+    font-style: italic;
+    font-size: 1.25rem;
+}
+
+.blogBody {
+    font-size: 1.25rem;
+}
+
+.buttonBox {
+    padding: 0%;
+}
+
+.options {
+    margin-right: 12px;
+}
+
+/* new */
+
+.form {
+    padding-top: 5%;
+    padding-left: 20%;
+    padding-right: 20%;
+}
+
+.newlabel {
+    font-size: 1.5rem;
+}
+
+.submit {
+    margin-top: 16px;
 }
